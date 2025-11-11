@@ -19,8 +19,8 @@ body {
 
 /* header */
 header {
-  background-color: #ff69b4; /* fallback */
-  background: linear-gradient(to right, #ff69b4, #1a6fa3);
+  background-color: #1c475d; /* fallback */
+  background: linear-gradient(to right, #1c475d, #1a6fa3);
   color: #ffffff;
   padding: 20px 0;
   position: sticky;
@@ -51,10 +51,11 @@ nav a {
 }
 
 nav a:hover {
-  background: linear-gradient(45deg, #ffca25, #ff6f91, #8c52ff, #42a5f5);
+  /* background: linear-gradient(45deg, #ffca25, #ff6f91, #8c52ff, #42a5f5);
   background-clip: text;
-  -webkit-background-clip: text; /* applies gradient to text */
-  -webkit-text-fill-color: transparent; /* makes text show gradient */
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent;  */
+  color: #ffde21;
   font-weight: 600;
   transform: translateY(-5px); /* lifts it up slightly */
 }
@@ -119,7 +120,8 @@ nav a:hover {
   margin-bottom: 25px;
 }
 .home-content .btn {
-  background: #1a6fa3;
+  background-color: #1c475d; /* fallback */
+  background: linear-gradient(to right, #1c475d, #1a6fa3);
   color: white;
   padding: 12px 25px;
   border-radius: 5px;
@@ -150,7 +152,7 @@ section .container {
 #destinations h2 {
   font-size: 2.2rem;
   margin-bottom: 40px;
-  color: #1a6fa3;
+  color: #1c475d;
   text-decoration: underline;
 }
 
@@ -175,7 +177,7 @@ section .container {
 .destinations-card h3 {
   padding: 15px;
   font-size: 1.4rem;
-  color: #1a6fa3;
+  color: #1c475d;
   background: #fff;
 }
 
@@ -195,7 +197,7 @@ section .container {
 #packages h2 {
   font-size: 2.2rem;
   margin-bottom: 40px;
-  color: #1a6fa3;
+  color: #1c475d;
   text-decoration: underline;
 }
 .packages-grid {
@@ -220,11 +222,11 @@ section .container {
 .package h3 {
   margin: 10px 0;
   font-size: 1.2rem;
-  color: #1a6fa3;
+  color: #1c475d;
 }
 .package p {
   padding: 10px 10px;
-  color: #333;
+  color: #1a6fa3;
   font-size: 1rem;
 }
 .package:hover {
@@ -239,11 +241,13 @@ section .container {
   border-radius: 5px;
   font-weight: 500;
   cursor: pointer;
+  background-color: #1c475d; /* fallback */
+  background: linear-gradient(to right, #1c475d, #1a6fa3);
   transition: background 0.3s ease, transform 0.3 ease;
 }
 
 .package button:hover {
-  background: #ff69b4;
+  background: #ffde21;
   color: #022d4f;
   transform: scale(1);
 }
@@ -256,11 +260,10 @@ section .container {
 
 #testimonials h2 {
   text-align: center;
-  color: #1a6fa3;
+  color: #1c475d;
   font-size: 2rem;
   margin-bottom: 40px;
   text-decoration: underline;
-  font-style: italic;
 }
 
 .testimonials-grid {
@@ -277,15 +280,16 @@ section .container {
   text-align: center;
 }
 .testimonial i {
-  color: #ff69b4;
+  color: #ffde21;
   margin-bottom: 12px;
 }
 .testimonial p {
   font-style: italic;
   margin-bottom: 10px;
+  color: #1a6fa3;
 }
 .testimonial h4 {
-  color: #1a6fa3;
+  color: #1c475d;
   margin-top: 10px;
 }
 /* Booking Section */
@@ -298,13 +302,14 @@ section .container {
   text-align: center;
   margin-bottom: 10px;
   font-size: 2rem;
-  color: #1a6fa3;
+  color: #1c475d;
+  text-decoration: underline;
 }
 
 #booking p {
   text-align: center;
   margin-bottom: 30px;
-  color: #555;
+  color: #1a6fa3;
 }
 
 form {
@@ -320,7 +325,7 @@ form label {
   font-weight: 500;
   margin-bottom: 5px;
   display: block;
-  color: #1a6fa3;
+  color: #1c475d;
 }
 
 form input,
@@ -344,7 +349,8 @@ form textarea:focus {
 }
 
 form button {
-  background: #1a6fa3;
+  background-color: #1c475d; /* fallback */
+  background: linear-gradient(to right, #1c475d, #1a6fa3);
   color: #fff;
   border: none;
   padding: 14px 25px;
@@ -357,13 +363,14 @@ form button {
 }
 
 form button:hover {
-  background: #ff69b4;
+  background: #ffde21;
   color: #333;
 }
 
 /* Footer */
 footer {
-  background: #1a6fa3;
+  background-color: #1c475d; /* fallback */
+  background: linear-gradient(to right, #1c475d, #1a6fa3);
   color: #fff;
   padding: 50px 20px 0;
   text-align: center;
@@ -373,7 +380,6 @@ footer h2 {
   font-size: 1.8rem;
   margin-bottom: 20px;
   text-decoration: underline;
-  font-style: italic;
 }
 
 footer iframe {
@@ -396,7 +402,7 @@ footer .socials a {
 }
 
 footer .socials a:hover {
-  color: #ff69b4;
+  color: #ffde21;
 }
 
 footer p {
